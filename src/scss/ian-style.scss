@@ -1,0 +1,144 @@
+.ian-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ian-w40 {
+    width: 40px !important;
+}
+
+.ian-w60 {
+    width: 60px !important;
+}
+
+.ian-w80 {
+    width: 80px !important;
+}
+
+.ian-w100 {
+    width: 100px !important;
+}
+
+.ian-w120 {
+    width: 120px !important;
+}
+
+.ian-wauto {
+    width: auto !important;
+}
+
+.ian-ml-2 {
+    margin-left: 2px !important;
+}
+
+.ian-ml-12 {
+    margin-left: 12px !important;
+}
+
+.ian-mt-6 {
+    margin-top: 6px !important;
+}
+.ian-mb-12{
+    margin-bottom: 6px !important;
+}
+
+.ian-checkboxpool {
+    label {
+        margin-right: 12px;
+        font-weight: normal;
+        vertical-align: middle;
+        cursor: pointer;
+        span {
+            color: grey;
+        }
+        input:checked+span {
+            color: green;
+        }
+    }
+}
+
+.ian-zoom {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    margin-top: -122px;
+    @media (min-width: 768px) {
+        margin-left: -216px;
+        margin-top: -51px;
+    }
+    .data-info-view {
+        position: absolute;
+        z-index: 9999;
+        font-size: 16px;
+        font-weight: bold;
+        color: blue;
+        .data-state {
+            &-box {
+                width: 17px;
+                height: 15px;
+                display: inline-block;
+            }
+            &-round {
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+                border-radius: 10px;
+            }
+            &-0 {
+                background-color: green;
+            }
+            &-1 {
+                background-color: red;
+            }
+
+            &-snow {
+                font-size: 22px;
+                border: 2px solid;
+                padding: 2px;
+                &-true {
+                    color: blue;
+                }
+                &-false {
+                    color: gray; 
+                }
+            }
+
+            &-handy {
+                &-true {
+                    color: green;
+                }
+                &-false {
+                    color: red;
+                }
+                &-undefined {
+                    color: gray; 
+                }
+            }
+        }
+    }
+}
+
+.ian-zoom-bg-cover {
+    background-color: white;
+    width: 100vw;
+    margin-bottom: -24px;
+    position: fixed;
+    top: 0;
+    bottom: 25px;
+    z-index: 9999;
+    left: 0;
+}
+
+.ian-d-inline {
+    display: inline-block !important;
+}
+
+.ian-classroom-bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    opacity: .3;
+    z-index: -9999;
+}
