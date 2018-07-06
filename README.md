@@ -1,6 +1,7 @@
-CH�j�ǪŽըt�Ϋe�ݭ���
-React
-React-Router
-React-Redux
-Chart.js
-WebSocket
+CH大學空調系統前端頁面 with React
+
+使用套件:
+  Router
+  Redux
+  Chart
+  WebSocket
